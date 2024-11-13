@@ -1,0 +1,64 @@
+.battleship_board2 {
+  margin-top: 30px;
+}
+
+p {
+  color: white;
+} 
+
+.Section-1{
+  display: flex;
+  margin-left: 40px;
+}
+.cell2 {
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  background-color: #333;
+
+}
+
+
+
+.board-header2 {
+  background-color: #333;
+  display: flex;
+  flex-direction: row;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  font-weight: bold;
+  background-color: #333;
+  color: white;
+}
+
+.SHIPS {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.carriercell {
+  background-color: #204904;
+}
+
+.battleshipcell {
+  background-color: purple;
+}
+
+.cruisercell {
+  background-color: greenyellow;
+}
+
+.submarinecell {
+  background-color: #5e1f06;
+}
+
+.destroyercell {
+  background-color: #35021e;
+}
