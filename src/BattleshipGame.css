@@ -1,0 +1,65 @@
+.gameContainer {
+  text-align: center;
+}
+
+.boardsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.appleBoard, .bananaBoard {
+  width: 200px;
+  margin: 0 2px;
+}
+
+.appleGrid, .bananaGrid {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  gap: 2px;
+}
+
+.appleCell, .bananaCell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* Player 1 specific styles */
+.appleCell.unmarked {
+  background-color: #2a6ca2;
+}
+
+.appleCell.ship {
+  background-color: lightgreen; /* Visible ship position */
+}
+
+.appleCell.hit {
+  background-color: red;
+  color: white; /* "X" in red cell for hit */
+}
+
+.appleCell.miss {
+  background-color: #242424;
+}
+
+/* Player 2 specific styles */
+.bananaCell.unmarked {
+  background-color: #2a6ca2;
+}
+
+.bananaCell.ship {
+  background-color: lightgreen;
+}
+
+.bananaCell.hit {
+  background-color: red;
+  color: white;
+}
+
+.bananaCell.miss {
+  background-color: #242424;
+}
