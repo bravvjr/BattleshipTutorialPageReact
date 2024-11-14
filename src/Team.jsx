@@ -7,9 +7,9 @@ function Team() {
     <div className="row">
       <div className="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
         <div className="section-title">
-          <h1 className="display-4 fw-semibold">Team Members</h1>
+          <h1 className="display-4 fw-semibold">Meet The Team</h1>
           <div className="line"></div>
-          <p>The Dynamic: Meet the Team</p>
+          <p>Four Minds, One Code</p>
         </div>
       </div>
     </div>
@@ -21,7 +21,7 @@ function Team() {
           </div>
           <h5 className="mt-3">Daniel Mburu</h5>
           {/* <p>jkhgfksdgfjksfguefsdjkfg</p> */}
-          <a href="https://github.com/bravvjr">Github</a>
+          <a href="https://github.com/waweru89">Github</a>
         </div>
       </div>
       <div className="col-md-3" data-aos="fade-down" data-aos-delay="250">
@@ -41,7 +41,7 @@ function Team() {
           </div>
           <h5 className="mt-3">Joses Thuo</h5>
           {/* <p>jkhgfksdgfjksfguefsdjkfg</p> */}
-          <a href="https://github.com/bravvjr">Github</a>
+          <a href="https://github.com/Joses-kt">Github</a>
         </div>
       </div>
       <div className="col-md-3" data-aos="fade-down" data-aos-delay="350">
