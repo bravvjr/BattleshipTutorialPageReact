@@ -1,5 +1,5 @@
 import React from "react";
-import "../public/css/Ships.css";
+import "../css/Ships.css";
 
 const Carrier = () => (
   <div className="ship">
