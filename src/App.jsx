@@ -1,8 +1,8 @@
-import { useState } from "react";
-import React from "react";
+// import { useState } from "react";
+// import React from "react";
 import AboutGame from "./AboutGame";
 import ShipsPlacement from "./ShipsPlacement";
-import Demo from "./Demo";
+// import Demo from "./Demo";
 import Team from "./Team";
 
 // import AnimBoard from "./AnimBoard";
@@ -109,7 +109,7 @@ function App() {
       {/* BOARD */}
       <ShipsPlacement />
       {/* {/* ANIMATED BOARD */}
-      <Demo/>
+      {/* <Demo/> */}
       {/* TEAM */}
       <Team />
       
